@@ -11,7 +11,8 @@ public class CommandProvider {
 
     public CommandProvider() {
         commands.put("authorization", new AuthorizationCommand());
-        commands.put("goToRegistratioPage", new GoToRegistrationCommand());
+        commands.put("go_to_registration", new GoToRegistrationCommand());
+        commands.put("go_to_auth", new GoToAuthCommand());
         commands.put("registration", new RegistrationCommand());
         commands.put("go_to_index", new GoToIndexPageCommand());
         commands.put("change_locale", new ChangeLocale());

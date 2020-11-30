@@ -37,8 +37,6 @@ public class ClientServiceImpl implements ClientService{
     @Override
     public boolean registration(UserData user) throws ServiceException{
 
-        //validation
-
         DAOProvider daoProvider = DAOProvider.getInstance();
         UserDAO userDAO = daoProvider.getUserDAO();
 

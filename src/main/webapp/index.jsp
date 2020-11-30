@@ -9,7 +9,7 @@
   <title>Insert title here</title>
 </head>
 <body>
-<c:redirect url = "controller?command=go_to_index"/>
+<c:redirect url = "controller?command=go_to_auth"/>
 
 </body>
 </html>
